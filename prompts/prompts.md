@@ -17,3 +17,10 @@ Use Selenium Library with implicit waits to ensure elements are loaded before in
 
 Use RobotMCP to refactor the test suite into a clean keyword-driven test suite and resource file which have re-usable keywords.
 Execute each step separately to confirm the refactored test suite is working
+
+# Debug Test Suite with RobotMCP
+
+Use #RobotMCP Debug bridge to execute the following steps:
+- Get Page Page Source of current Selenium session
+- Perform some assertions
+- Close Browser
