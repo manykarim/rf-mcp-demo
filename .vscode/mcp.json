@@ -1,0 +1,23 @@
+{
+    "servers": {
+        "RobotMCP": {
+            "type": "stdio",
+            "command": "uv",
+            "args": [
+                "run",
+                "python",
+                "-m",
+                "robotmcp.server"
+            ],
+            "env": {
+                "ROBOTMCP_ATTACH_HOST": "127.0.0.1",
+                "ROBOTMCP_ATTACH_PORT": "7317",
+                "ROBOTMCP_ATTACH_TOKEN": "change-me",
+                "ROBOTMCP_ATTACH_DEFAULT": "auto",
+                "ROBOTMCP_ENABLE_FRONTEND": "1",
+                "ROBOTMCP_FRONTEND_HOST": "127.0.0.1",
+                "ROBOTMCP_FRONTEND_PORT": "8053"
+            }
+        }
+    }
+}
